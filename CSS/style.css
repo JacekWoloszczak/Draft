@@ -2,6 +2,94 @@ body {
   margin: 0;
   padding: 0;
 }
+.slajder-wrapper {
+  display: block;
+  overflow: auto;
+  height: 400px;
+  position: relative;
+}
+.slajder-wrapper img {
+  display: block;
+  position: absolute;
+  top: 0;
+}
+
+.control-panel {
+  border: solid 2px black;
+  width: 5%;
+  height: 5%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control-panel2 {
+  border: solid 2px black;
+  width: 5%;
+  height: 5%;
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#slajder-ax:target {
+  display: none;
+  position: relative;
+  overflow: hidden;
+}
+#slajder-ax:target {
+  position: relative;
+
+  overflow: hidden;
+  height: 400px;
+
+  cursor: pointer;
+}
+#slajder-ax > img {
+  position: absolute;
+  top: 0;
+}
+#slajder:target {
+  display: none;
+  position: relative;
+  overflow: hidden;
+}
+#slajder:target {
+  position: relative;
+
+  overflow: hidden;
+  height: 400px;
+
+  cursor: pointer;
+}
+#slajder > .img {
+  position: absolute;
+  top: 0;
+}
+
+.slajder-1:target {
+  display: none;
+}
+
+.slajder-2:target {
+  display: none;
+}
+
+.slajder-3:target {
+  display: none;
+}
+
+.slajder-4:target {
+  display: none;
+}
 
 .desen {
   width: 100%;
